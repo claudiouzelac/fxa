@@ -1732,7 +1732,7 @@
         "array.prototype.find": {
             "version": "2.0.0",
             "resolved": "https://registry.npmjs.org/array.prototype.find/-/array.prototype.find-2.0.0.tgz",
-            "integrity": "sha1-VqmrHt3ip3Ae1tkWas7DOJGdhDA=",
+            "integrity": "sha512-bqub8f8MRMHDViIknB+j4+fo9XtgGHWCErVe4jsREZs6L3JZv78cL2YdHhGQ4UlxHcmOewOTFahAGrsLyCzscA==",
             "requires": {
                 "define-properties": "^1.1.2",
                 "es-abstract": "^1.5.0"
@@ -3706,9 +3706,9 @@
             "integrity": "sha1-9lNNFRSCabIDUue+4m9QH5oZEpA="
         },
         "decode-uri-component": {
-            "version": "0.2.0",
-            "resolved": "https://registry.npmjs.org/decode-uri-component/-/decode-uri-component-0.2.0.tgz",
-            "integrity": "sha1-6zkTMzRYd1y4TNGh+uBiEGu4dUU="
+            "version": "0.2.2",
+            "resolved": "https://registry.npmjs.org/decode-uri-component/-/decode-uri-component-0.2.2.tgz",
+            "integrity": "sha512-FqUYQ+8o158GyGTrMFJms9qh3CqTKvAqgqsTnkLI8sKu0028orqBhxNMFkFen0zGyg6epACD32pjVk58ngIErQ=="
         },
         "decompress": {
             "version": "4.2.0",
@@ -4428,20 +4428,9 @@
             }
         },
         "eslint-plugin-fxa": {
-            "version": "git://github.com/mozilla/eslint-plugin-fxa.git#1153ff4bbf7e2c074363253c555fb7f71bac09a1",
-            "from": "git://github.com/mozilla/eslint-plugin-fxa.git#1153ff4bbf7e2c074363253c555fb7f71bac09a1",
-            "dev": true,
-            "requires": {
-                "ramda": "0.25.0"
-            },
-            "dependencies": {
-                "ramda": {
-                    "version": "0.25.0",
-                    "resolved": "https://registry.npmjs.org/ramda/-/ramda-0.25.0.tgz",
-                    "integrity": "sha512-GXpfrYVPwx3K7RQ6aYT8KPS8XViSXUVJT1ONhoKPE9VAleW42YE+U+8VEyGWt41EnEQW7gwecYJriTI0pKoecQ==",
-                    "dev": true
-                }
-            }
+            "version": "git://github.com/mozilla/eslint-plugin-fxa.git#41504c9dd30e8b52900c15b524946aa0428aef95",
+            "from": "git://github.com/mozilla/eslint-plugin-fxa.git#41504c9dd30e8b52900c15b524946aa0428aef95",
+            "dev": true
         },
         "eslint-plugin-sorting": {
             "version": "0.4.1",
@@ -9232,8 +9221,8 @@
             }
         },
         "node-uap": {
-            "version": "git://github.com/vladikoff/node-uap.git#9cdd16247c8255d881820038d30db68b7926277d",
-            "from": "git://github.com/vladikoff/node-uap.git#9cdd16247",
+            "version": "git+https://github.com/vladikoff/node-uap.git#9cdd16247c8255d881820038d30db68b7926277d",
+            "from": "git+https://github.com/vladikoff/node-uap.git#9cdd16247",
             "requires": {
                 "array.prototype.find": "2.0.0",
                 "uap-core": "git://github.com/ua-parser/uap-core.git",
@@ -12466,13 +12455,13 @@
             "from": "git://github.com/vladikoff/ua-parser-js.git#fxa-version"
         },
         "uap-core": {
-            "version": "git://github.com/ua-parser/uap-core.git#286809e09706ea891b9434ed875574d65e0ff6b7",
+            "version": "git://github.com/ua-parser/uap-core.git#dc85ab2628798538a2874dea4a9563f40a31f55a",
             "from": "git://github.com/ua-parser/uap-core.git"
         },
         "uap-ref-impl": {
             "version": "0.2.0",
             "resolved": "https://registry.npmjs.org/uap-ref-impl/-/uap-ref-impl-0.2.0.tgz",
-            "integrity": "sha1-EDJIGgSJMDYzY/1Pz4QK2pfAHwM=",
+            "integrity": "sha512-7qhWzIx5uXZ7q6WA7s7TGWOjMDso6IsMVDQR95suCFMxl6ZZMLZjWBPKWLGTJ9U3eTTZh41ggX1+cKuMVPStOA==",
             "requires": {
                 "yamlparser": ">=0.0.2"
             }
@@ -13280,7 +13269,7 @@
         "yamlparser": {
             "version": "0.0.2",
             "resolved": "https://registry.npmjs.org/yamlparser/-/yamlparser-0.0.2.tgz",
-            "integrity": "sha1-Mjk+avxwyMoGa2ZQrGc4tIFnjrw="
+            "integrity": "sha512-Cou9FCGblEENtn1/8La5wkDM/ISMh2bzu5Wh7dYzCzA0o9jD4YGyLkUJxe84oPBGoB92f+Oy4ZjVhA8S0C2wlQ=="
         },
         "yargs": {
             "version": "10.0.3",
