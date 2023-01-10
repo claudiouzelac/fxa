@@ -32,7 +32,7 @@
     "@hapi/joi": "^15.0.3",
     "@sentry/node": "^5.6.1",
     "aws-sdk": "^2.459.0",
-    "convict": "^5.0.0",
+    "convict": "^6.2.4",
     "fxa-jwtool": "^0.7.2",
     "google-auth-library": "^4.2.0",
     "mozlog": "^2.2.0",
